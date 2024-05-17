@@ -1,0 +1,14 @@
+
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8´¤ÍÂø1J$87a852b0-a7a4-449b-9319-5fec48003b70
+z
+java:S2629"7Use the built-in formatting to construct this argument.(²õ¼î8¶¤ÍÂø1J$c86c12ec-e5cc-477f-a61b-4253317e9379
+y
+java:S2629"7Use the built-in formatting to construct this argument.(È®»8¶¤ÍÂø1J$953382cc-859f-4dae-a22a-5ea6bd9bb803
+
+java:S2629"7Use the built-in formatting to construct this argument.(Ä—ØÑùÿÿÿÿ8¶¤ÍÂø1J$41aa0a49-2b59-4f64-96b7-74f8d820094a
+Á
+java:S1598"This file "App.java" should be located in "org\example" directory, not in "C:\Users\User\IdeaProjects\java-dev-homework-module-14-code-quality\src\main\java".(ŠË˜‰ÿÿÿÿÿ8ñåÓÂø1
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(Çµí‘8¦ÍÂø1J$8a3ae141-57a1-4f28-b14f-7570f6ba810f
+ˆ
+java:S6541"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 75 to 64, Complexity from 67 to 14, Nesting Level from 4 to 2, Number of Variables from 9 to 6.(Çµí‘8Œ¦ÍÂø1J$bd07e303-2ee3-4fa0-a786-61480cb76206
