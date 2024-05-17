@@ -3,18 +3,13 @@ package org.example;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class App {
-    private static final Logger LOGGER = Logger.getLogger(App.class.getName());
+public class TikTacToe {
+    private static final Logger LOGGER = Logger.getLogger(TikTacToe.class.getName());
     private static final byte BOX_SIZE = 9;
     private enum GameState { PLAYING, WINNER_PLAYER, WINNER_COMPUTER, DRAW }
     private final char[] box = new char[BOX_SIZE];
     private GameState gameState = GameState.PLAYING;
-
-    public static void main(String[] args) {
-        new App().startGame();
-    }
-
-    private void startGame() {
+    public void startGame() {
         initializeGame();
         try (Scanner scan = new Scanner(System.in)) {
             while (gameState == GameState.PLAYING) {
