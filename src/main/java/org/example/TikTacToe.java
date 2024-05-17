@@ -9,6 +9,7 @@ public class TikTacToe {
     private enum GameState { PLAYING, WINNER_PLAYER, WINNER_COMPUTER, DRAW }
     private final char[] box = new char[BOX_SIZE];
     private GameState gameState = GameState.PLAYING;
+
     public void startGame() {
         initializeGame();
         try (Scanner scan = new Scanner(System.in)) {
@@ -49,7 +50,7 @@ public class TikTacToe {
                 box[input - 1] = 'X';
                 break;
             } else {
-                LOGGER.info("Invalid input or box already filled. Try again.");
+                LOGGER.warning("Invalid input or box already filled. Try again.");
             }
         }
     }
